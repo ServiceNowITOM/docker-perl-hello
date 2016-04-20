@@ -1,4 +1,5 @@
 FROM perl:latest
 MAINTAINER reuben.stump@servicenow.com
 
-# test
+# Install Perl-Mojolicious
+RUN cpan Mojolicious
