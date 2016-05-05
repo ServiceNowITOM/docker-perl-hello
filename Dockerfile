@@ -1,7 +1,7 @@
 FROM perl:latest
 MAINTAINER reuben.stump@servicenow.com
 
-<<<<<<< Updated upstream
+#<<<<<<< Updated upstream
 # Install Perl-Mojolicious
 RUN cpan Mojolicious
 
