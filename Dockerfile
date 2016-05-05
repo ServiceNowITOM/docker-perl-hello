@@ -9,7 +9,6 @@ RUN cpan Mojolicious
 
 =======
 # another comment
-# another comment
 # new comment
 #test
 #testing again
