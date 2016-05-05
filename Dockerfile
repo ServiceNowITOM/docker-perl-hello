@@ -12,6 +12,5 @@ RUN cpan Mojolicious
 # another comment
 # new comment
 #test
-#test
 #testing again
 >>>>>>> Stashed changes
