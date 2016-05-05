@@ -9,7 +9,6 @@ RUN cpan Mojolicious
 
 =======
 # another comment
-# I blame Stump for this problem.
 # new comment
 #test
 #testing again
