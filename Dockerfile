@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 FROM perl:latest
 MAINTAINER reuben.stump@servicenow.com
-#comment
+#comment to test zsh git plugin
 =======
 FROM iron/perl:latest
 MAINTAINER Reuben Stump (reuben.stump@servicenow.com)
