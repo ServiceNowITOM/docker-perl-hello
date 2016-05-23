@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 FROM perl:latest
 MAINTAINER reuben.stump@servicenow.com
 #comment to test zsh git plugin
