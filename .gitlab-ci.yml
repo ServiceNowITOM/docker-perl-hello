@@ -1,0 +1,11 @@
+build_image:
+  image: docker:git
+  services:
+  - docker:dind
+  script:
+    - docker login registry.gitlab.com
+    - docker build -t registry.gitlab.com/ServiceNowITOM/docker-perl-hello .
+#    - docker run registry.example.com/my-group/my-project /script/to/run/tests
+    - docker push registry.gitlab.com/ServiceNowITOM/docker-perl-hello
+  only:
+    - master
