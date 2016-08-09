@@ -1,12 +1,13 @@
-FROM perl:latest
-MAINTAINER reuben.stump@servicenow.com
+FROM iron/perl:latest
+MAINTAINER Reuben Stump (reuben.stump@servicenow.com)
 
-#<<<<<<< Updated upstream
-# Install Perl-Mojolicious
-RUN cpan Mojolicious
+# Install Perl Mojolicious
+RUN apk update --no-cache --purge
+RUN apk add wget curl make
+RUN curl -L https://cpanmin.us | perl - -M https://cpan.metacpan.org -n Mojolicious
 
-# Test
 
+<<<<<<< HEAD
 =======
 # another comment
 # new comment
@@ -15,3 +16,5 @@ RUN cpan Mojolicious
 #testing again
 #>>>>>>> Stashed changes
 #story
+=======
+>>>>>>> origin/master
